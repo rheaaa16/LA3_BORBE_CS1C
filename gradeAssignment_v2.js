@@ -28,6 +28,6 @@ if (score >= 90) {
 } else {
     remarks = "FAILED, Needs Improvement";
 }
-console.log(Enter your score: ${score});
-console.log(Your equivalent Grade is "${grade}");
-console.log(Final Remarks: ${remarks});
+console.log(`Enter your score: ${score}`);
+console.log(`Your equivalent Grade is ${grade}`);
+console.log(`Final Remarks: ${remarks}`);
